@@ -30,5 +30,5 @@ int remoteSquare(int n) {
 }
 
 int remoteCube(int n) {
-    return n*n*n;
+    return n*remoteSpare(n);
 }
