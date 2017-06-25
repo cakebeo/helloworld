@@ -10,4 +10,8 @@ main()
      */
 }
 
-// My mistake
+void doLoop(int n) {
+    for (int i = 0; i < n; i ++) {
+        printf("This is line #" + i + "\n");
+    }
+}
