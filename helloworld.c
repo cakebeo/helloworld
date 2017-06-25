@@ -20,3 +20,7 @@ void doLoop(int n) {
 int localSquare(int n) {
 	return n*n;
 }
+
+int remoteSquare(int n) {
+	return n*n;
+}
