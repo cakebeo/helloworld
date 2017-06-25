@@ -30,5 +30,5 @@ int rmSquare(int n) {
 }
 
 int rmCube(int n) {
-    return n * rmSpare(n);
+    return n * n * n;
 }
