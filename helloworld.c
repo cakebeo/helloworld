@@ -25,10 +25,10 @@ int localCube(int n) {
     return n*localSquare(n);
 }
 
-int remoteSquare(int n) {
+int rmSquare(int n) {
     return n * n;
 }
 
-int remoteCube(int n) {
-    return n * remoteSpare(n);
+int rmCube(int n) {
+    return n * rmSpare(n);
 }
