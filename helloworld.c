@@ -18,7 +18,7 @@ void doLoop(int n) {
 }
 
 int localSquare(int n) {
-    return n*n;
+    return n * n;
 }
 
 int localCube(int n) {
