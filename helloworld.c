@@ -17,12 +17,12 @@ void doLoop(int n) {
     }
 }
 
-int localSquare(int n) {
+int lcSquare(int n) {
     return n * n;
 }
 
-int localCube(int n) {
-    return n*localSquare(n);
+int lcCube(int n) {
+    return n*lcSquare(n);
 }
 
 int remoteSquare(int n) {
