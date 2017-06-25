@@ -22,7 +22,7 @@ int lcSquare(int n) {
 }
 
 int lcCube(int n) {
-    return n*lcSquare(n);
+    return n * n * n;
 }
 
 int rmSquare(int n) {
