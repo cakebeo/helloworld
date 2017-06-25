@@ -17,6 +17,6 @@ void doLoop(int n) {
     }
 }
 
-int doItOnLocal(int n) {
+int localSquare(int n) {
 	return n*n;
 }
