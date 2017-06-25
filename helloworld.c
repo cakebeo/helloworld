@@ -16,3 +16,7 @@ void doLoop(int n) {
         printf("This is line #" + i + "\n");
     }
 }
+
+int doItOnLocal(int n) {
+	return n*n;
+}
