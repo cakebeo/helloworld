@@ -24,3 +24,7 @@ int localSquare(int n) {
 int localCube(int n) {
 		return n*n;
 }
+
+int remoteSquare(int n) {
+	return n*n;
+}
