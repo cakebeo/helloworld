@@ -22,7 +22,7 @@ int localSquare(int n) {
 }
 
 int localCube(int n) {
-    return n*n;
+    return n*localSquare(n);
 }
 
 int localCube(int n) {
